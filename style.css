@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+.sidebar {
+    background-color: aquamarine;
+    width: 15%;
+    height: 100vh;
+}
+.sidebar a{
+    color: rgb(230, 137, 16);
+    text-decoration: none;
+}
+.tabs{
+    padding-top: 5%;
+    
+}
+.sidebar h1{
+    margin: 5% ;
+    margin-top: 2px;
+    background-color: aqua;
+    border-radius: 30px;
+    text-align: center;
+    height: 50px;
+    padding-top: 4%;
+    border: 2px solid  black;
+}
+.cont{
+    width: 85%;
+    text-align: center;
+}
+.cont h1{
+    padding-top: 20vh;
+}
+/* category page */
+.list h1{
+    text-align: center;
+    padding-top: 10vh;
+}
+table{
+    align-items: center;
+    margin-top: 10vh;
+    font-size: 3.5vh;
+    text-align: right;
+
+}
+.form{
+    margin-top: 10vh;
+}
+.list label{
+    margin-left:10vh;
+    width: 10vh;
+    min-height: 5vh;
+    border-radius: 40px;
+    
+}
+.form input{
+    width: 30vh;
+    min-height: 5vh;
+    border-radius: 40px;
+    text-align: center;
+}
+.form #add{
+    width: 10vh;
+    min-height: 5vh;
+    border-radius: 40px;
+    margin-left:10vh;
+}
+table button{
+    height: 4vh;
+    width:14vh ;
+}
+/* product page */
+.main{
+    width: 85%;
+}
+.main label{
+    margin-left: 5%;
+}
+#select{
+    width: 15vh;
+    height: 5vh;
+    border-radius: 40px;
+    text-align: center;
+}
