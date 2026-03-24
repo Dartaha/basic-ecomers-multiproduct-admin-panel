@@ -27,6 +27,7 @@
             <form action="category_add.php">
                 <label for="catagory">Category:-  </label> <input type="text" name="category" placeholder=" Enter the category">
                 <label for="about">About:-  </label> <input type="text" name="about" placeholder="Enter some thing about category">
+                <input type="hidden" value="add" name="work">
                 <input type="submit" value="Add" id="add">
             </form>
         </div>
@@ -54,8 +55,8 @@
                 <?php
                     }
                 ?>
-                    <td><a href="cat_upd.php?id=<?php echo $id?>"><button>UPDATE</button></a></td>
-                    <td><a href="cat_del?id=<?php echo $id?>"><button>DALETE</button></a></td>
+                    <td><a href="cat_upd.php?id=<?php echo $id?>&work=ugrade"><button>UPDATE</button></a></td>
+                <td><a href="cat_upd?id=<?php echo $id?>&work=delete"><button>DELETE</button></a></td>
                 </tr>
                     
                 
