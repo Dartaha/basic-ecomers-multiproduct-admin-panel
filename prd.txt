@@ -1,0 +1,4 @@
+cake,food 
+Geser,electrcity 
+Pizza,food 
+Chole bhature,food 
