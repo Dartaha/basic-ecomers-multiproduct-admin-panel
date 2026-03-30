@@ -1,4 +1,0 @@
-electrcity,expensive
-food,for every one
-clothing,Fashion wear
-Home,house hold
